@@ -20,4 +20,10 @@ spec:
                     image: ghcr.io/reotra224/acti-police-api:v20230816-183159
                     imagePullPolicy: IfNotPresent
             restartPolicy: Always
+            
+            containers:
+                -   name: test
+                    image: ghcr.io/reotra224/acti-police-api:v20230816-183159
+                    imagePullPolicy: IfNotPresent
+            restartPolicy: Always
       
